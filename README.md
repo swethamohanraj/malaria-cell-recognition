@@ -41,7 +41,7 @@ Our dataset comprises 27,558 cell images, evenly split between parasitized and u
 ## PROGRAM
 
 ### Import necessary libraries:
-python
+```python
 import os
 import pandas as pd
 import numpy as np
@@ -55,7 +55,7 @@ from tensorflow.keras import utils
 from tensorflow.keras import models
 from sklearn.metrics import classification_report,confusion_matrix
 import tensorflow as tf
-
+```
 
 ### Allow GPU Processing:
 python
